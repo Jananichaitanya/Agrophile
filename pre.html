@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>CROP RECOMMENDATION</title>
+        <link rel="stylesheet" type="text/css" href="./pre.css">
+    </head>
+    <h2 style="text-align: center; margin: 0px; color: black">
+        <b>CROP RECOMMENDATION</b>
+      </h2>
+    <body >
+        <div class="crop-prediction">
+            
+            <form action="#" method="post">
+                <p>Nitrogen</p>
+                <input  type="number"  name="nitrogen" placeholder="Nitrogen(example:50)">
+                <p>Phosphorus</p>
+                <input  type="number"  name="phosphorus" placeholder="Phosphorus(example:50)">
+                <p>Potassium</p>
+                <input type="number"  name="potassium" placeholder="Potassium(example:50)">
+                <p>ph level</p>
+                <input type="number"  name="ph" placeholder="ph">
+                <p>Rainfall(in mm)</p>
+                <input type="number" name="rainfall" placeholder="rainfall">
+                <p>State</p>
+                <input onchange="print_city('state', this.selectedIndex);" name="state">
+                 <button type="">Predict</button>
+                
+            </form>
+        </div>
+    </body>
+</html>
